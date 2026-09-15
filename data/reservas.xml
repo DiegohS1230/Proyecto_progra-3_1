@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sistema>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <usuarios>
+                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <usuario>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <id>admin</id>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <clave>admin</clave>
+                                                                  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <rol>ADMINISTRADOR</rol>
+                                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </usuario>
+                                          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </usuarios>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <funcionarios>
+    <funcionario>
+      <id>111</id>
+      <clave>111</clave>
+      <nombre>Juan Perez</nombre>
+      <telefono>3323-8899</telefono>
+    </funcionario>
+    <funcionario>
+      <id>222</id>
+      <clave>222</clave>
+      <nombre>Maria Perez</nombre>
+      <telefono>2222-3344</telefono>
+    </funcionario>
+    <funcionario>
+      <id>333</id>
+      <clave>333</clave>
+      <nombre>Carlos Rodriguez</nombre>
+      <telefono>8888-1122</telefono>
+    </funcionario>
+    <funcionario>
+      <id>4343</id>
+      <clave>4343</clave>
+      <nombre>Pepillo</nombre>
+      <telefono/>
+    </funcionario>
+  </funcionarios>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <categorias>
+                    
+    
+    
+    
+    <categoria>
+                              
+      
+      
+      
+      <id>CAT-000001</id>
+                              
+      
+      
+      
+      <descripcion>Sala para 10 personas</descripcion>
+                            
+    
+    
+    
+    </categoria>
+                    
+    
+    
+    
+    <categoria>
+                              
+      
+      
+      
+      <id>CAT-000002</id>
+                              
+      
+      
+      
+      <descripcion>Laptop windows</descripcion>
+                            
+    
+    
+    
+    </categoria>
+                    
+    
+    
+    
+    <categoria>
+                              
+      
+      
+      
+      <id>CAT-000003</id>
+                              
+      
+      
+      
+      <descripcion>Sala de Juntas</descripcion>
+                            
+    
+    
+    
+    </categoria>
+                    
+    
+    
+    
+    <categoria>
+                              
+      
+      
+      
+      <id>CAT-000004</id>
+                              
+      
+      
+      
+      <descripcion>Proyector Multimedia</descripcion>
+                            
+    
+    
+    
+    </categoria>
+                  
+  
+  
+  
+  </categorias>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <recursos>
+            
+    
+    <recurso>
+                  
+      
+      <id>238715</id>
+                  
+      
+      <categoriaId>CAT-000002</categoriaId>
+                  
+      
+      <descripcion>Laptop #238715</descripcion>
+                
+    
+    </recurso>
+            
+    
+    <recurso>
+                  
+      
+      <id>34343</id>
+                  
+      
+      <categoriaId>CAT-000001</categoriaId>
+                  
+      
+      <descripcion>Sala 1 primer piso</descripcion>
+                
+    
+    </recurso>
+            
+    
+    <recurso>
+                  
+      
+      <id>45238</id>
+                  
+      
+      <categoriaId>CAT-000002</categoriaId>
+                  
+      
+      <descripcion>Laptop #45238</descripcion>
+                
+    
+    </recurso>
+            
+    
+    <recurso>
+                  
+      
+      <id>452784</id>
+                  
+      
+      <categoriaId>CAT-000003</categoriaId>
+                  
+      
+      <descripcion>Sala de Juntas 1</descripcion>
+                
+    
+    </recurso>
+            
+    
+    <recurso>
+                  
+      
+      <id>562100</id>
+                  
+      
+      <categoriaId>CAT-000004</categoriaId>
+                  
+      
+      <descripcion>Proyector Epson HDMI</descripcion>
+                
+    
+    </recurso>
+            
+    
+    <recurso>
+                  
+      
+      <id>65465153</id>
+                  
+      
+      <categoriaId>CAT-000002</categoriaId>
+                  
+      
+      <descripcion>Laptop</descripcion>
+                
+    
+    </recurso>
+          
+  
+  </recursos>
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <reservas>
+                            
+    
+    
+    
+    
+    
+    <reserva>
+                                          
+      
+      
+      
+      
+      
+      <id>RES-000001</id>
+                                          
+      
+      
+      
+      
+      
+      <funcionarioId>111</funcionarioId>
+                                          
+      
+      
+      
+      
+      
+      <actividad>Reunion clientes</actividad>
+                                          
+      
+      
+      
+      
+      
+      <fecha>2026-07-31</fecha>
+                                          
+      
+      
+      
+      
+      
+      <horaInicio>08:00</horaInicio>
+                                          
+      
+      
+      
+      
+      
+      <horaFin>10:00</horaFin>
+                                          
+      
+      
+      
+      
+      
+      <estado>ACTIVA</estado>
+                                          
+      
+      
+      
+      
+      
+      <recursosAsignados>
+                                                        
+        
+        
+        
+        
+        
+        <recursoId>238715</recursoId>
+                                                        
+        
+        
+        
+        
+        
+        <recursoId>34343</recursoId>
+                                                      
+      
+      
+      
+      
+      
+      </recursosAsignados>
+                                        
+    
+    
+    
+    
+    
+    </reserva>
+                            
+    
+    
+    
+    
+    
+    <reserva>
+                                          
+      
+      
+      
+      
+      
+      <id>RES-000003</id>
+                                          
+      
+      
+      
+      
+      
+      <funcionarioId>111</funcionarioId>
+                                          
+      
+      
+      
+      
+      
+      <actividad>Sesion de Junta</actividad>
+                                          
+      
+      
+      
+      
+      
+      <fecha>2026-08-05</fecha>
+                                          
+      
+      
+      
+      
+      
+      <horaInicio>09:00</horaInicio>
+                                          
+      
+      
+      
+      
+      
+      <horaFin>11:00</horaFin>
+                                          
+      
+      
+      
+      
+      
+      <estado>ACTIVA</estado>
+                                          
+      
+      
+      
+      
+      
+      <recursosAsignados>
+                                                        
+        
+        
+        
+        
+        
+        <recursoId>238715</recursoId>
+                                                        
+        
+        
+        
+        
+        
+        <recursoId>452784</recursoId>
+                                                      
+      
+      
+      
+      
+      
+      </recursosAsignados>
+                                        
+    
+    
+    
+    
+    
+    </reserva>
+                            
+    
+    
+    
+    
+    
+    <reserva>
+                                          
+      
+      
+      
+      
+      
+      <id>RES-000005</id>
+                                          
+      
+      
+      
+      
+      
+      <funcionarioId>111</funcionarioId>
+                                          
+      
+      
+      
+      
+      
+      <actividad>Reunion de Control</actividad>
+                                          
+      
+      
+      
+      
+      
+      <fecha>2026-08-12</fecha>
+                                          
+      
+      
+      
+      
+      
+      <horaInicio>08:00</horaInicio>
+                                          
+      
+      
+      
+      
+      
+      <horaFin>09:00</horaFin>
+                                          
+      
+      
+      
+      
+      
+      <estado>ACTIVA</estado>
+                                          
+      
+      
+      
+      
+      
+      <recursosAsignados>
+                                                        
+        
+        
+        
+        
+        
+        <recursoId>452784</recursoId>
+                                                      
+      
+      
+      
+      
+      
+      </recursosAsignados>
+                                        
+    
+    
+    
+    
+    
+    </reserva>
+                            
+    
+    
+    
+    
+    
+    <reserva>
+                                          
+      
+      
+      
+      
+      
+      <id>RES-000006</id>
+                                          
+      
+      
+      
+      
+      
+      <funcionarioId>111</funcionarioId>
+                                          
+      
+      
+      
+      
+      
+      <actividad>pc</actividad>
+                                          
+      
+      
+      
+      
+      
+      <fecha>2026-09-14</fecha>
+                                          
+      
+      
+      
+      
+      
+      <horaInicio>08:00</horaInicio>
+                                          
+      
+      
+      
+      
+      
+      <horaFin>10:00</horaFin>
+                                          
+      
+      
+      
+      
+      
+      <estado>CANCELADA</estado>
+                                          
+      
+      
+      
+      
+      
+      <recursosAsignados>
+                                                        
+        
+        
+        
+        
+        
+        <recursoId>238715</recursoId>
+                                                      
+      
+      
+      
+      
+      
+      </recursosAsignados>
+                                        
+    
+    
+    
+    
+    
+    </reserva>
+                            
+    
+    
+    
+    
+    
+    <reserva>
+                                          
+      
+      
+      
+      
+      
+      <id>RES-000007</id>
+                                          
+      
+      
+      
+      
+      
+      <funcionarioId>111</funcionarioId>
+                                          
+      
+      
+      
+      
+      
+      <actividad>Reunion de coordinacion</actividad>
+                                          
+      
+      
+      
+      
+      
+      <fecha>2026-09-15</fecha>
+                                          
+      
+      
+      
+      
+      
+      <horaInicio>08:00</horaInicio>
+                                          
+      
+      
+      
+      
+      
+      <horaFin>10:00</horaFin>
+                                          
+      
+      
+      
+      
+      
+      <estado>ACTIVA</estado>
+                                          
+      
+      
+      
+      
+      
+      <recursosAsignados>
+                                                        
+        
+        
+        
+        
+        
+        <recursoId>34343</recursoId>
+                                                      
+      
+      
+      
+      
+      
+      </recursosAsignados>
+                                        
+    
+    
+    
+    
+    
+    </reserva>
+                          
+  
+  
+  
+  
+  
+  </reservas>
+                    
+
+
+
+
+
+
+
+
+
+</sistema>
